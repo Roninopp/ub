@@ -29,7 +29,7 @@ if ENV:
         # specify list of users allowed to use bot
         # WARNING: be careful who you grant access to your bot.
         # malicious users could do ".exec rm -rf /*"
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1793699293").split())
         # VeryStream only supports video formats
         VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
         VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
@@ -68,25 +68,25 @@ if ENV:
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+            or "https://telegra.ph/file/cabca09553b3f958a8f49.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/47ffec836544b371408ab.mp4"
+            or "https://telegra.ph/file/cabca09553b3f958a8f49.jpg"
         )
         HELP_PIC = (
             os.environ.get("OP_PIC", None)
-            or "https://te.legra.ph/file/b5d01ceea49ee0a822661.mp4"
+            or "https://telegra.ph/file/cabca09553b3f958a8f49.jpg"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
+            or "https://telegra.ph/file/cabca09553b3f958a8f49.jpg"
         )
-        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Lêɠêɳ̃dẞø† Is Online"
+        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Ronin Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "DISABLE")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Legend_Userbot")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Official_LegendBot.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Ronin_Fighters_Fd")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@imperial_arena.")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -97,34 +97,34 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/LEGEND-OS/LEGENDBOT"
         )
-        APP_ID = os.environ.get("APP_ID", None)
-        API_HASH = os.environ.get("API_HASH", None)
-        LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
+        APP_ID = os.environ.get("APP_ID", "7217645")
+        API_HASH = os.environ.get("API_HASH", "78ba6352dd5cdc166fdef5aa84ba7c67")
+        LEGEND_STRING = os.environ.get("LEGEND_STRING", "1BVtsOIYBu5vh29E3rNCLYWOOSEe8HgA_cRQrGxeSYrPWa77-zl3P6ZocpzlyYXOxx7kqrYDG8jNlschR89gFvfqVopmV0l5Qgme3p2UPhKZsEwaFTZw-0qzWUkEYfIiRH7xKrdaALwlYMXhtMWRhojwl8W0J3JbEi_MNj1hFnPApuKOCB-ucWxEMfq1M-i8WZ7JShobTTZTOABwcxz-uj8HS7aeNCfnH8hNRf2b60_mITvVMVuV5z7oJ1Wyd7xKzRp92a-o67cfIqKqe7okwxkaYI_CvBsb-FCCIaQv5Ev6I3_Xbcy1qsVKAPeL_05ZHAclcFWNYk5IFfAtWv8_kYS1Wb2Sg1tY=")
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOTLOG = True
         EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
         ASSISTANT = os.environ.get("ASSISTANT", None)
         ABUSE = os.environ.get("ABUSE", None)
-        BOTLOG_CHATID = os.environ.get("LOGGER_ID", None)
-        ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+        BOTLOG_CHATID = os.environ.get("LOGGER_ID", "-1001754175512")
+        ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ronin")
         BOY_OR_GIRL = os.environ.get("BOY_OR_GIRL", "BOY")
         BOT_TRIGGER = os.environ.get("BOT_TRIGGER", "^/")
         BOTMODE_LOG = int(os.environ.get("BOTMODE_LOG", False))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-        BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5420641611:AAFRadnL6Z16KVBIW72IyPl3V9OJ98YlmwI")
+        BOT_USERNAME = os.environ.get("BOT_USERNAME", "GAANDFAADNEWAALIBOT")
         FORCE_SUB = os.environ.get("FORCE_SUB", None)
         FORCE_CHANNEL_UN = os.environ.get("FORCE_CHANNEL_UN", None)
-        LOGGER_ID = os.environ.get("LOGGER_ID", None)
+        LOGGER_ID = os.environ.get("LOGGER_ID", "-1001754175512")
         if LOGGER_ID:
             LOGGER_ID = int(LOGGER_ID)
-        PRIVATE_GROUP_ID = os.environ.get("LOGGER_ID", None)
-        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+        PRIVATE_GROUP_ID = os.environ.get("LOGGER_ID", "-1001754175512")
+        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "e48256b3-0370-481d-b1ce-bc0fdc9e01f3")
+        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", none)
         BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
         # can get from https://coffeehouse.intellivoid.net/
         RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", None)
         # github vars
-        BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+        BOT_USERNAME = os.environ.get("BOT_USERNAME", "GAANDFAADNEWAALIBOT")
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
@@ -185,7 +185,7 @@ if ENV:
         NO_P_M_SPAM = bool(os.environ.get("NO_P_M_SPAM", True))
         # define "spam" in PMs
         NO_SONGS = bool(os.environ.get("NO_SONGS", False))
-        MAX_FLOOD_IN_PM = int(os.environ.get("MAX_FLOOD_IN_PM", 7))
+        MAX_FLOOD_IN_PM = int(os.environ.get("MAX_FLOOD_IN_PM", 4))
         # pm log
         PM_LOG_GRP_ID = os.environ.get("LOGGER_ID", None)
         # set to True if you want to log PMs to your PM_LOGGR_BOT_API_ID
