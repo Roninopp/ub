@@ -60,7 +60,7 @@ if ENV:
         YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
         GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
         # MongoDB
-        MONGO_URI = os.environ.get("MONGO_URI", None)
+        MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
         # alive
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
